@@ -16,4 +16,3 @@ jobs:
         with:
           body_path: ${{ github.workspace }}-CHANGELOG.txt
           token: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
-          tag_name: v${{ github.run_number }}
